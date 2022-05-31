@@ -8,7 +8,7 @@ This reposotory includes:
 
 - ShowerSegmentation (... + ... + ...)  = macros for shower segmentation and angle variables between the segments with respect to the first one. A cut in these variables aims to retain the useful e.m. shower space-points for direction reconstruction.
 
-- KalmanFilter (... + ... + ...) = macros for direction reconstruction using Kalman Filter with muon sample. 5D and 4D state vectors algorithms are included.
+- KalmanFilter (SegmentsForKalman_MuonSample.cc + ... + ...) = macros for direction reconstruction using Kalman Filter with muon sample. 5D and 4D state vectors algorithms are included.
 
 - ShowerDirectionReco = File with the shower direction reconstruction macros.
   -  KalmanFilter (... + ... + ...) = File with 4D-state-vector-Kalman Filter reconstruction.

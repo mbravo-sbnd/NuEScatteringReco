@@ -66,9 +66,6 @@
 	t->SetBranchAddress("PointsX", &PointsX);
 	t->SetBranchAddress("PointsY", &PointsY);
 	t->SetBranchAddress("PointsZ", &PointsZ);
-	t->SetBranchAddress("hPlane", &hPlane);
-	t->SetBranchAddress("hPTime", &hPTime);
-	t->SetBranchAddress("hInteg", &hInteg);
 
 	t->SetBranchAddress("nSeg", &nseg);
 	t->SetBranchAddress("segXDir", &segXDir);

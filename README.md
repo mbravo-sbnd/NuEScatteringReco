@@ -10,5 +10,7 @@ This reposotory includes:
 
 - ShowerSegmentation (TreeCreatorSegmentsAndPortions.cc)  = macros for shower segmentation and shower portions building. Angle between the segments with respect to the first one and shower portions directions are also obtained. A cut in these variables aims to retain the useful e.m. shower space-points for direction reconstruction.
 
-- ShowerDirectionReco (ThetaRMSCut.cc + DerivEValueCut.cc + MaxEValueCut.cc) = File with the shower direction reconstruction macros (that uses ShowerSegmentation outputas the input file), each one with its correpsonding point selection method and PCA.
+- ShowerDirectionReco (ThetaRMSCut.cc + DerivEValueCut.cc + MaxEValueCut.cc) = File with the shower direction reconstruction macros (that uses ShowerSegmentation output as the input file), each one with its correpsonding point selection method and PCA.
+
+- ShowerDirectionReco_KalmanFilter (ThetaRMSCut_and_KalmanFilterDirReco.py) = shower reconstruction macro (that uses ShowerSegmentation output as the input file) that uses Theta-RMS cut and reconstructs shower direction with Kalman Filter
 
